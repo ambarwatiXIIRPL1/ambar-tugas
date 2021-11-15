@@ -1,0 +1,102 @@
+<html>
+<head>
+	<style>
+   li  {
+	display:inline;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+active {
+ background-color:#000080;
+}
+
+header {
+ text-align:center;
+ background-color:#808080;
+}
+
+
+article{
+background-color:#C0C0C0;
+}
+
+footer{
+text-align:center;
+background-color:#808080;
+}
+ </style></head>
+<body>
+<header>
+<h1> Pemrograman WEB  </h1>
+
+  <ul>
+<li> <a class="active" href="login.html">daftar </a> </li>
+   <li><a href="menu3.html">Home</a></li>
+   <li> <a href="tablerekap.html">Tabel</a></li>
+
+  </ul>
+</header>
+<section>
+  <form action>
+    <h2> Form Daftar </h2>
+    <label> Nama Depan  </label><br>
+    <input type="text"><br> 
+    <label> Nama Belakang </label><br>
+    <input type="text"> <br><br>
+  <label for="cars"> Tempat Lahir: </label>
+   <select id="cars" name="cars">
+    <option value="Madiun">Madiun</option>
+    <option value="Surabaya">Surabaya</option>
+    <option value="Bandung">Bandung</option>
+    <option value="Jakarta">Jakarta</option>
+</select><br><br>
+
+<label> Tanggal Lahir </label>
+ <input type="date"><br> 
+<label> Jenis Kelamin </label>
+ <input type="radio" id="Laki-laki">
+<label> Laki-laki </label>
+ <input type="radio" id="Perempuan">
+<label> Perempuan </label><br><br>
+
+<label> Alamat </label>
+	  <input type="text"><br></br>
+
+<label> Hobby </label>
+ <input type="checkbox" id="olahraga" value="Olah raga">
+  <label >Olahraga</label>
+   <input type="checkbox" id="menggambar" value="Menggambar">
+  <label >Menggambar</label>
+ <input type="checkbox" id="membaca" value="membaca">
+  <label >Membaca</label><br><br>
+    <input type="Submit" value="Simpan">
+    <input type="Reset">
+</section>
+  </form > 
+<footer>
+  <p> Created by Dias Amella </p>
+</footer>
+
+</body>
+</html>
